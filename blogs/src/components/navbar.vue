@@ -8,7 +8,7 @@
           class="cursor-pointer"
         />
       </div>
-      <div class="flex items-center text-[#BBBBCB] gap-8 text-base">
+      <div class="flex items-center text-[#BBBBCB] gap-8 text-base" >
         <p class="text-white cursor-pointer">Home</p>
         <p class="cursor-pointer">About us</p>
         <p class="cursor-pointer">Features</p>
@@ -17,10 +17,40 @@
         <p class="cursor-pointer">Blog</p>
         <p
           class="border-[2px] border-[#474975] rounded-[41px] py-3 px-10 cursor-pointer"
-        >
+        > 
           Contact us
         </p>
+      
       </div>
     </div>
   </div>
+
+
+
+
+
 </template>
+
+<script>
+
+export default {
+name:"navbar",
+data () {
+return {
+
+  name:'Hammad'
+}
+
+},
+methods :{
+  updateText(){
+this.name="blogsDetails"
+  }
+}
+
+}
+
+
+
+</script>
+

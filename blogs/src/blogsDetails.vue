@@ -7,9 +7,8 @@ import Footer from "./components/footer.vue";
 <template>
   <div>
     <navbar />
-
     <div class="max-w-[1280px] mx-auto text-center mt-24">
-      <h1
+      <h1 
         class="text-[#282938] text-5xl font-semibold text-center leading-[64px] max-w-4xl mx-auto"
       >
         A UX Case Study on Creating a Studious Environment for Students

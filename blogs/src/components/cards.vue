@@ -1,11 +1,12 @@
 <script>
 import { RouterLink } from "vue-router";
-
 export default {
   components: {
     RouterLink,
   },
 };
+
+
 </script>
 
 <template>
@@ -27,7 +28,7 @@ export default {
             See how pivoting to Webflow changed one person’s sales strategy and
             allowed him to attract
           </p>
-        <router-link to="/blogsDetails">
+        <router-link to="/blogsDetails/1">
         <p
           class="text-[#1C1E53] text-base font-medium leading-7 mt-6 cursor-pointer flex items-center gap-3"
         >
@@ -62,7 +63,7 @@ export default {
           See how pivoting to Webflow changed one person’s sales strategy and
           allowed him to attract
         </p>
-        <p
+        <router-link to="/blogsDetails/2"><p
           class="text-[#1C1E53] text-base font-medium leading-7 mt-6 cursor-pointer flex items-center gap-3"
         >
           Read More
@@ -78,7 +79,7 @@ export default {
               fill="#282938"
             />
           </svg>
-        </p>
+        </p></router-link>
       </div>
 
       <div class="max-w-[405px]">
@@ -96,7 +97,7 @@ export default {
           See how pivoting to Webflow changed one person’s sales strategy and
           allowed him to attract
         </p>
-        <p
+        <router-link to="/blogsDetails/3"> <p
           class="text-[#1C1E53] text-base font-medium leading-7 mt-6 cursor-pointer flex items-center gap-3"
         >
           Read More
@@ -112,7 +113,7 @@ export default {
               fill="#282938"
             />
           </svg>
-        </p>
+        </p></router-link>
       </div>
 
       <div class="max-w-[405px]">
@@ -130,7 +131,7 @@ export default {
           See how pivoting to Webflow changed one person’s sales strategy and
           allowed him to attract
         </p>
-        <p
+        <router-link to="/blogsDetails/4"><p
           class="text-[#1C1E53] text-base font-medium leading-7 mt-6 cursor-pointer flex items-center gap-3"
         >
           Read More
@@ -146,7 +147,7 @@ export default {
               fill="#282938"
             />
           </svg>
-        </p>
+        </p></router-link>
       </div>
 
       <div class="max-w-[405px]">
@@ -164,7 +165,7 @@ export default {
           See how pivoting to Webflow changed one person’s sales strategy and
           allowed him to attract
         </p>
-        <p
+        <router-link to="/blogsDetails/5"><p
           class="text-[#1C1E53] text-base font-medium leading-7 mt-6 cursor-pointer flex items-center gap-3"
         >
           Read More
@@ -180,7 +181,7 @@ export default {
               fill="#282938"
             />
           </svg>
-        </p>
+        </p></router-link>
       </div>
 
       <div class="max-w-[405px]">
@@ -198,7 +199,7 @@ export default {
           See how pivoting to Webflow changed one person’s sales strategy and
           allowed him to attract
         </p>
-        <p
+        <router-link to="/blogsDetails/5"><p
           class="text-[#1C1E53] text-base font-medium leading-7 mt-6 cursor-pointer flex items-center gap-3"
         >
           Read More
@@ -214,7 +215,7 @@ export default {
               fill="#282938"
             />
           </svg>
-        </p>
+        </p></router-link>
       </div>
     </div>
   </div>
