@@ -7,28 +7,28 @@ import Footer from "./components/footer.vue";
 <template>
   <div>
     <navbar />
-    <div class="max-w-[1280px] mx-auto text-center mt-24">
+    <div class="max-w-[1280px] mx-auto text-center md:mt-24 mt-10">
       <h1 
-        class="text-[#282938] text-5xl font-semibold text-center leading-[64px] max-w-4xl mx-auto"
+        class="text-[#282938] text-xl md:text-3xl lg:text-5xl lg-px-0 px-5 font-semibold text-center md:leading-10 lg:leading-[64px] leading-8 max-w-4xl mx-auto"
       >
         A UX Case Study on Creating a Studious Environment for Students
       </h1>
-      <p class="text-[#282938] text-base font-medium leading-7 mt-4 mb-8">
+      <p class="text-[#282938] md:text-base text-sm font-medium leading-7 md:mt-4 mt-2 md:mb-8 mb-4">
         Andrew Jonson Posted on 27th January 2021
       </p>
       <img
         src="../../public/images/first-page-img.png"
         alt=""
-        class="max-w-[1280px] w-full"
+        class="max-w-[1280px] w-full px-5 2xl:px-0"
       />
     </div>
 
-    <div class="max-w-[840px] mx-auto my-[90px]">
-      <p class="text-[38px] font-semibold leading-[56px] text-[#282938] mb-8">
+    <div class="max-w-[840px] mx-auto md:my-[90px] my-12">
+      <p class="text-[#282938] text-xl md:text-3xl lg:text-4xl px-5 lg:px-0 mb-3 lg:mb-0 font-semibold leading-8 md:leading-10 lg:leading-[64px] max-w-4xl mx-auto">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
       <p
-        class="text-base font-normal text-[#282938] opacity-70 leading-7 mb-10"
+        class="md:text-base text-sm font-normal text-[#282938] opacity-70 md:leading-7 leading-5 md:mb-10 mb-5 px-5 lg:px-0"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -43,12 +43,12 @@ import Footer from "./components/footer.vue";
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
       <p
-        class="text-[38px] font-semibold font-semibold leading-[56px] text-[#282938] mb-8"
+        class="text-[#282938] text-xl md:text-3xl lg:text-4xl px-5 lg:px-0 mb-3 lg:mb-0 font-semibold leading-8 md:leading-10 lg:leading-[64px] max-w-4xl mx-auto"
       >
         Ut enim ad minim veniam, quis nostrud.
       </p>
 
-      <p class="text-base font-normal text-[#282938] opacity-70 leading-7 mb-6">
+      <p class="md:text-base text-sm font-normal text-[#282938] opacity-70 md:leading-7 leading-5 md:mb-10 mb-5 px-5 lg:px-0">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -62,7 +62,7 @@ import Footer from "./components/footer.vue";
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
       <ul
-        class="list-disc text-base font-normal text-[#282938] opacity-70 leading-7"
+        class="list-disc md:text-base text-sm font-normal text-[#282938] opacity-70 md:leading-7 leading-5 md:mb-10 mb-5 px-5 lg:px-0"
       >
         <li class="mb-3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
@@ -74,7 +74,7 @@ import Footer from "./components/footer.vue";
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
         </li>
       </ul>
-      <p class="text-base font-normal text-[#282938] opacity-70 leading-7 mb-8">
+      <p class="md:text-base text-sm font-normal text-[#282938] opacity-70 md:leading-7 leading-5 md:mb-10 mb-5 px-5 lg:px-0">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -87,14 +87,14 @@ import Footer from "./components/footer.vue";
         dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-      <img src="../../public/images/page-2-img.jpg" class="mb-14" />
+      <img src="../../public/images/page-2-img.jpg" class="md:mb-14 mb-7 px-5 lg:px-0" />
       <p
-        class="text-[38px] font-semibold font-semibold leading-[56px] text-[#282938] mb-8"
+        class="text-[#282938] text-xl md:text-3xl lg:text-4xl px-5 lg:px-0 mb-3 lg:mb-0 font-semibold leading-8 md:leading-10 lg:leading-[64px] max-w-4xl mx-auto"
       >
         Ut enim ad minim veniam, quis nostrud.
       </p>
       <p
-        class="text-base font-normal text-[#282938] opacity-70 leading-7 mb-24"
+        class="md:text-base text-sm font-normal text-[#282938] opacity-70 md:leading-7 leading-5 md:mb-10 mb-5 px-5 lg:px-0"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

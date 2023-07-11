@@ -10,8 +10,8 @@ export default {
 </script>
 
 <template>
-  <div class="max-w-[1280px] mx-auto">
-    <div class="grid grid-cols-3 gap-24 mb-32">
+  <div class="mx-auto flex justify-center">
+    <div class="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:mb-32 mb-10 px-5 md:px-5">
       <div class="max-w-[405px]">
         <img src=" /images/blog-img-1.png" />
         <p class="text-[#282938] opacity-70 text-xs leading-7 font-medium mt-8">
